@@ -1,0 +1,5 @@
+IP: 130.193.42.123;
+name_taski: https://blackwaterpark.ddns.net/;
+name_kittygram: https://kittygram.hopto.org/;
+login: yc-user;
+password: Scorcer777;
