@@ -1,14 +1,13 @@
 import os
 from pathlib import Path
-from decouple import config, Csv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = 'django-insecure-cg6*%6d51ef8f#4!r3*$vmxm4)abgjw8mo!4y-q*uq1!4$-89$'
 
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = False
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+ALLOWED_HOSTS = ['130.193.42.123', '127.0.0.1', 'localhost', 'kittygram.hopto.org']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
